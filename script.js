@@ -144,3 +144,13 @@ document.addEventListener('DOMContentLoaded', function(){
   }
   actualizarVistaReserva();
 });
+
+// PRO MOBILE: cerrar menú al tocar un enlace y mejorar navegación táctil
+document.addEventListener('DOMContentLoaded', function(){
+  const menu = document.getElementById('menuNav');
+  if(menu){
+    menu.querySelectorAll('a').forEach(a=>{
+      a.addEventListener('click', ()=> menu.classList.remove('show'));
+    });
+  }
+});
