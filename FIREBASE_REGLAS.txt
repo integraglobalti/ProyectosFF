@@ -1,0 +1,33 @@
+REGLAS RECOMENDADAS PARA FIRESTORE
+
+En Firebase ve a: Firestore Database > Reglas
+Reemplaza las reglas por estas y pulsa Publicar:
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /testimonios/{id} {
+      allow read: if resource.data.aprobado == true ||
+        (request.auth != null && request.auth.token.email == "integraglobalti@gmail.com");
+
+      allow create: if request.resource.data.keys().hasOnly([
+          "nombre", "servicio", "estrellas", "comentario", "aprobado", "createdAt"
+        ]) &&
+        request.resource.data.nombre is string &&
+        request.resource.data.servicio is string &&
+        request.resource.data.comentario is string &&
+        request.resource.data.estrellas is int &&
+        request.resource.data.estrellas >= 1 &&
+        request.resource.data.estrellas <= 5 &&
+        request.resource.data.aprobado == false;
+
+      allow update, delete: if request.auth != null &&
+        request.auth.token.email == "integraglobalti@gmail.com";
+    }
+  }
+}
+
+IMPORTANTE:
+- El público puede enviar opiniones, pero quedan como pendiente.
+- Solo el admin integraglobalti@gmail.com puede aprobar, ocultar o eliminar.
+- Si usas otro correo admin, cambia el correo en estas reglas y en firebase-config.js.

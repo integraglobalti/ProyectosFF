@@ -1,0 +1,16 @@
+{
+  "name": "Rinconcito Ancashino",
+  "short_name": "Rinconcito",
+  "description": "Restaurante campestre con piscina, camping, comida típica y eventos.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff8ec",
+  "theme_color": "#0f4d22",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

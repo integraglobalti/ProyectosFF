@@ -1,0 +1,180 @@
+
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:Arial,sans-serif;background:#fffaf0;color:#2f2f2f}.navbar{position:sticky;top:0;z-index:1000;display:flex;justify-content:space-between;align-items:center;padding:12px 7%;background:linear-gradient(90deg,rgba(255,250,238,.97),rgba(245,237,213,.95),rgba(31,92,47,.92));backdrop-filter:blur(12px);box-shadow:0 8px 24px rgba(0,0,0,.14);border-bottom:3px solid #d98a19}.brand{display:flex;align-items:center;gap:12px;color:#12351f;text-decoration:none;font-size:22px;font-weight:900;letter-spacing:.2px}.brand img{height:58px;width:auto;object-fit:contain;filter:drop-shadow(0 4px 6px rgba(0,0,0,.18))}.brand span{color:#12351f;text-shadow:0 1px 0 rgba(255,255,255,.35)}.navbar ul{display:flex;gap:18px;list-style:none;align-items:center}.navbar a{color:#12351f;text-decoration:none;font-weight:800;font-size:14px}.navbar a:hover{color:#b46a16}.menu-toggle{display:none;background:#facc15;border:none;border-radius:10px;padding:10px 13px;font-size:18px}.hero{min-height:88vh;background:linear-gradient(rgba(0,0,0,.58),rgba(0,0,0,.58)),url('imagenes1/AreaCampestre.jpg');background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center;text-align:center;color:white;padding:40px 8%}.hero-content{max-width:1000px}.badge{display:inline-block;background:#facc15;color:#1f2937;padding:12px 28px;border-radius:50px;font-weight:800;margin-bottom:25px}.hero h1{font-size:70px;line-height:1.05;margin-bottom:22px}.hero p{font-size:23px;line-height:1.6;margin-bottom:30px}.buttons{display:flex;gap:15px;justify-content:center;flex-wrap:wrap}.btn{background:#facc15;color:#1f2937;padding:15px 30px;border-radius:50px;text-decoration:none;font-weight:800;border:none;display:inline-block;cursor:pointer;transition:.3s}.btn:hover{background:#eab308;transform:scale(1.05)}.btn-light{background:white;color:#365314}section{padding:85px 8%}.section-head{text-align:center;max-width:850px;margin:0 auto 45px}.section-head h2,.page-title{font-size:44px;color:#365314;margin-bottom:15px}.section-head p{color:#666;font-size:18px;line-height:1.7}.features,.cards,.services{display:grid;grid-template-columns:repeat(4,1fr);gap:25px}.feature,.card,.service,.box{background:white;border-radius:24px;overflow:hidden;box-shadow:0 12px 30px rgba(0,0,0,.12);transition:.3s}.feature{padding:28px;text-align:center}.feature i{font-size:40px;color:#ca8a04;margin-bottom:15px}.feature h3,.service h3,.card h3,.box h3{color:#365314}.feature:hover,.card:hover,.service:hover,.box:hover{transform:translateY(-8px)}.card img{width:100%;height:225px;object-fit:cover}.card-body{padding:22px}.card-body h3{font-size:22px;margin-bottom:10px}.card-body p{color:#666;line-height:1.6}.price{color:#ca8a04;font-size:21px;font-weight:800;margin-top:12px}.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:35px}.box img{width:100%;height:330px;object-fit:cover}.box-body{padding:32px}.box-body h3{font-size:30px;margin-bottom:15px}.box-body p,.box-body li{color:#555;line-height:1.7}.box-body ul{list-style:none;margin:15px 0 25px}.service{padding:32px 18px;text-align:center}.service span{font-size:45px}.service h3{margin-top:12px}.banner{background:linear-gradient(rgba(63,98,18,.92),rgba(63,98,18,.92)),url('imagenes1/AreaVerde1.jpg');background-size:cover;background-position:center;color:white;text-align:center}.banner h2{font-size:45px;margin-bottom:20px}.banner p{font-size:20px;margin-bottom:30px}.page-hero{min-height:48vh;background:linear-gradient(rgba(0,0,0,.58),rgba(0,0,0,.58)),url('imagenes1/AreaVerde2.jpg');background-size:cover;background-position:center;display:flex;align-items:center;padding:60px 8%;color:white}.page-hero h1{font-size:60px;margin-bottom:15px}.page-hero p{font-size:21px;max-width:800px;line-height:1.6}.event-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:35px}.event-card{background:white;border-radius:28px;overflow:hidden;box-shadow:0 14px 35px rgba(0,0,0,.13);cursor:pointer}.event-card>img{width:100%;height:330px;object-fit:cover}.event-content{padding:30px}.event-content h3{font-size:30px;color:#365314;margin-bottom:12px}.event-content p{color:#555;line-height:1.7;margin-bottom:18px}.mini-gallery{display:none;grid-template-columns:repeat(3,1fr);gap:12px;padding:20px}.mini-gallery img{width:100%;height:170px;object-fit:cover;border-radius:15px;transition:.3s}.mini-gallery img:hover{transform:scale(1.05)}.event-card.active .mini-gallery{display:grid}.formulario{max-width:850px;margin:auto;background:white;padding:35px;border-radius:25px;box-shadow:0 12px 30px rgba(0,0,0,.12);display:flex;flex-direction:column;gap:15px}.formulario input,.formulario textarea,.formulario select{padding:15px;border:1px solid #ddd;border-radius:12px;font-size:16px;font-family:Arial,sans-serif}.formulario textarea{min-height:120px;resize:vertical}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px}.contact-card{background:white;border-radius:25px;padding:32px;box-shadow:0 12px 30px rgba(0,0,0,.12)}.social-buttons{display:flex;gap:15px;flex-wrap:wrap;margin-top:20px}.social-buttons a{font-size:20px;color:white;background:#1f2937;padding:15px 22px;border-radius:50px;text-decoration:none}footer{background:#1f2937;color:white;padding:45px 8% 25px}.footer-grid{display:grid;grid-template-columns:2fr 1.5fr 1fr;gap:30px}.footer-grid h3{color:#facc15;margin-bottom:12px}.footer-grid p{line-height:1.7;color:#e5e7eb}.footer-icons{display:flex;gap:14px}.footer-icons a{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#374151;color:white;text-decoration:none;font-size:22px}.footer-icons a:hover{background:#facc15;color:#1f2937}.copy{text-align:center;margin-top:30px;color:#cbd5e1}.whatsapp-float{position:fixed;right:22px;bottom:22px;width:62px;height:62px;border-radius:50%;background:#25D366;color:white;display:flex;align-items:center;justify-content:center;font-size:34px;text-decoration:none;z-index:2000;box-shadow:0 10px 25px rgba(0,0,0,.25)}.whatsapp-float:hover{transform:scale(1.1)}@media(max-width:1000px){.features,.cards,.services{grid-template-columns:repeat(2,1fr)}}@media(max-width:850px){.menu-toggle{display:block}.navbar{flex-wrap:wrap;padding:10px 6%}.brand img{height:50px}.brand{font-size:18px}.navbar ul{display:none;flex-direction:column;width:100%;padding-top:15px}.navbar ul.show{display:flex}.hero h1{font-size:42px}.hero p,.page-hero p{font-size:18px}.page-hero h1{font-size:42px}.features,.cards,.services,.grid-2,.event-grid,.contact-grid,.footer-grid{grid-template-columns:1fr}.mini-gallery{grid-template-columns:1fr}section{padding:65px 6%}.box img,.event-card>img{height:280px}}
+
+
+/* Reservas dinámicas */
+.reservas-hero{background:linear-gradient(rgba(0,0,0,.56),rgba(0,0,0,.56)),url('imagenes1/AreaVerde4.jpg');background-size:cover;background-position:center}.reservas-section{background:linear-gradient(180deg,#fffaf0,#f7f1df);padding-top:70px}.reservas-intro{text-align:center;max-width:850px;margin:0 auto 35px}.reservas-badge{display:inline-block;background:#fff;border:1px solid rgba(180,106,22,.25);color:#8a4b12;border-radius:999px;padding:10px 18px;font-weight:800;margin-bottom:15px;box-shadow:0 8px 22px rgba(0,0,0,.08)}.reservas-intro h2{font-size:38px;color:#12351f;margin-bottom:12px}.reservas-intro p{font-size:18px;color:#5f5a4f;line-height:1.6}.reserva-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:start;max-width:1180px;margin:auto}.reserva-form{background:white;border:1px solid rgba(18,53,31,.10);border-radius:24px;padding:30px;box-shadow:0 18px 45px rgba(18,53,31,.12)}.reserva-form label{display:block;margin:12px 0 7px;color:#12351f;font-weight:800}.form-doble{display:grid;grid-template-columns:1fr 1fr;gap:16px}.reserva-form input,.reserva-form select,.reserva-form textarea{width:100%;border:1px solid #e2d8c3;background:#fffaf0;border-radius:14px;padding:14px 15px;font-size:15px;outline:none;transition:.25s}.reserva-form input:focus,.reserva-form select:focus,.reserva-form textarea:focus{border-color:#b46a16;box-shadow:0 0 0 4px rgba(180,106,22,.12);background:#fff}.reserva-form textarea{min-height:110px;resize:vertical}.reserva-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:20px}.btn-whatsapp{background:#25d366;color:white}.btn-whatsapp:hover{background:#1fb85a}.btn-correo{background:#b46a16;color:white}.btn-correo:hover{background:#945310}.reserva-preview-card{position:sticky;top:95px;background:linear-gradient(160deg,#12351f,#1f5c2f);color:white;border-radius:24px;padding:26px;box-shadow:0 18px 45px rgba(18,53,31,.22);overflow:hidden}.reserva-preview-card:before{content:'';position:absolute;width:180px;height:180px;border-radius:50%;background:rgba(250,204,21,.18);right:-60px;top:-60px}.preview-top{position:relative;display:flex;justify-content:space-between;gap:15px;align-items:center;margin-bottom:16px}.preview-top span{font-weight:900;font-size:18px}.preview-top small{color:#ffe8af}.reserva-preview-card pre{position:relative;white-space:pre-wrap;font-family:Arial,sans-serif;line-height:1.6;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);border-radius:18px;padding:18px;font-size:15px;min-height:360px}.preview-note{position:relative;margin-top:16px;background:rgba(255,255,255,.12);border-radius:16px;padding:15px}.preview-note p{margin-bottom:5px;color:#fff3cf}.preview-note strong{color:#facc15}@media(max-width:900px){.reserva-grid{grid-template-columns:1fr}.form-doble{grid-template-columns:1fr}.reserva-preview-card{position:static}.reservas-intro h2{font-size:30px}.reserva-actions .btn{width:100%;text-align:center}}
+
+/* Opiniones y testimonios Firebase */
+.opiniones-hero{background:linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)),url('imagenes1/Clientes1.jpg');background-size:cover;background-position:center}.opiniones-section{background:#fffaf0}.testimonios-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:1180px;margin:0 auto}.testimonio-card{background:white;border-radius:24px;padding:26px;box-shadow:0 14px 35px rgba(18,53,31,.12);border:1px solid rgba(54,83,20,.10);transition:.25s}.testimonio-card:hover{transform:translateY(-6px)}.testimonio-head{display:flex;align-items:center;gap:14px;margin-bottom:12px}.testimonio-avatar{width:54px;height:54px;border-radius:50%;background:linear-gradient(135deg,#eaf7df,#fff5cd);display:flex;align-items:center;justify-content:center;font-size:28px;border:2px solid #7bad31}.testimonio-head h3{color:#12351f;font-size:20px;margin-bottom:3px}.testimonio-head span{color:#6b6b6b;font-size:13px}.testimonio-stars{color:#f59e0b;font-size:22px;letter-spacing:2px;margin:12px 0}.testimonio-card p{color:#4b4b4b;line-height:1.7}.testimonios-empty{grid-column:1/-1;background:white;border-radius:24px;padding:35px;text-align:center;box-shadow:0 12px 30px rgba(0,0,0,.10)}.testimonios-empty h3{color:#365314;margin-bottom:8px}.testimonios-cta{text-align:center;margin-top:30px}.opinion-form-section{background:linear-gradient(180deg,#f7f1df,#fffaf0)}.opinion-card{display:grid;grid-template-columns:.8fr 1.2fr;gap:28px;align-items:start;max-width:1100px;margin:0 auto;background:white;border-radius:28px;padding:35px;box-shadow:0 18px 45px rgba(18,53,31,.14)}.opinion-copy h2{font-size:38px;color:#12351f;margin:15px 0}.opinion-copy p{color:#5f5a4f;line-height:1.7;font-size:18px}.opinion-form{box-shadow:none;margin:0;max-width:none;background:#fffaf0;border:1px solid #eadfcb}.form-msg{font-weight:800;margin-top:8px}.form-msg.ok{color:#1f7a35}.form-msg.error{color:#b91c1c}.home-testimonios{background:#fffdf6}.home-testimonios-grid .testimonio-card:nth-child(n+4){display:none}
+
+/* Panel administrador */
+.admin-body{background:linear-gradient(135deg,#102417,#1f5c2f,#b46a16);min-height:100vh}.admin-page{padding:35px 7%;min-height:100vh}.admin-header{display:flex;justify-content:space-between;align-items:center;gap:18px;margin-bottom:35px}.admin-header .brand span{color:white;text-shadow:none}.admin-login-card,.admin-panel{max-width:1100px;margin:0 auto;background:rgba(255,255,255,.96);border-radius:28px;padding:35px;box-shadow:0 20px 60px rgba(0,0,0,.25)}.admin-login-card h1,.admin-panel h1{color:#12351f;font-size:38px;margin-bottom:10px}.admin-login-card p,.admin-panel p{color:#555;line-height:1.6}.admin-login-form{margin:25px 0 0;max-width:560px;box-shadow:none;background:#fffaf0;border:1px solid #eadfcb}.admin-panel-top{display:flex;justify-content:space-between;align-items:center;gap:18px;margin-bottom:25px}.admin-list{display:grid;gap:18px}.admin-review{background:#fffaf0;border-radius:20px;padding:22px;border:1px solid #eadfcb}.admin-review.pendiente{border-left:6px solid #f59e0b}.admin-review.aprobado{border-left:6px solid #22c55e}.admin-review-top{display:flex;justify-content:space-between;align-items:flex-start;gap:14px}.admin-review h3{color:#12351f}.admin-review span{color:#666;font-size:13px}.estado{border-radius:999px;padding:7px 12px;font-size:12px}.estado.ok{background:#dcfce7;color:#166534}.estado.wait{background:#fef3c7;color:#92400e}.admin-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}.btn-admin{border:none;border-radius:999px;padding:10px 16px;font-weight:900;cursor:pointer}.btn-aprobar{background:#22c55e;color:white}.btn-ocultar{background:#f59e0b;color:white}.btn-eliminar{background:#dc2626;color:white}.admin-empty{background:white;border-radius:18px;padding:25px;text-align:center}
+@media(max-width:900px){.testimonios-grid{grid-template-columns:1fr}.opinion-card{grid-template-columns:1fr}.admin-panel-top,.admin-header{flex-direction:column;align-items:flex-start}.admin-login-card h1,.admin-panel h1,.opinion-copy h2{font-size:30px}}
+
+
+/* Opiniones estilo Trustpilot */
+.opiniones-section{
+  background:#ffffff;
+  padding:70px 7%;
+}
+.opiniones-section .section-head{
+  max-width:1180px;
+  margin:0 auto 28px;
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+  gap:18px;
+}
+.opiniones-section .section-head h2{
+  font-size:34px;
+  color:#1f2937;
+  letter-spacing:-.6px;
+}
+.opiniones-section .section-head p{
+  max-width:560px;
+  color:#6b7280;
+  font-size:16px;
+}
+.testimonios-grid{
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+}
+.testimonio-card.trust-style{
+  border-radius:16px;
+  padding:0;
+  overflow:hidden;
+  box-shadow:none;
+  border:1px solid #e6dfd3;
+  background:#fff;
+  min-height:310px;
+  display:flex;
+  flex-direction:column;
+}
+.testimonio-card.trust-style:hover{
+  transform:translateY(-4px);
+  box-shadow:0 14px 35px rgba(31,41,55,.12);
+}
+.trust-head{
+  padding:20px 20px 8px;
+  margin:0;
+  align-items:flex-start;
+}
+.trust-avatar{
+  width:50px;
+  height:50px;
+  flex:0 0 50px;
+  border-radius:50%;
+  background:#0f766e;
+  color:#fff;
+  border:none;
+  font-weight:900;
+  font-size:18px;
+  letter-spacing:.5px;
+}
+.trust-head h3{
+  color:#1f2937;
+  font-size:17px;
+  margin:0 0 7px;
+}
+.trust-stars{
+  margin:0;
+  display:flex;
+  gap:2px;
+  color:inherit;
+  letter-spacing:0;
+  font-size:0;
+}
+.trust-stars span{
+  width:22px;
+  height:22px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+  font-size:15px;
+  line-height:1;
+  font-weight:900;
+}
+.trust-stars span.filled{
+  background:#00b67a;
+}
+.trust-stars span.empty{
+  background:#d9d9e3;
+}
+.trust-comment{
+  padding:12px 20px 22px;
+  color:#1f2937 !important;
+  font-size:17px;
+  line-height:1.35 !important;
+  flex:1;
+}
+.trust-footer{
+  border-top:1px solid #eee7dc;
+  background:#fffaf0;
+  padding:16px 20px;
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+.trust-footer img{
+  width:46px;
+  height:46px;
+  border-radius:10px;
+  object-fit:contain;
+  background:white;
+  border:1px solid #eadfcb;
+  padding:3px;
+}
+.trust-footer strong{
+  display:block;
+  color:#1f2937;
+  font-size:15px;
+  margin-bottom:2px;
+}
+.trust-footer span{
+  color:#6b7280;
+  font-size:14px;
+}
+.opinion-form-section{
+  padding:70px 7%;
+}
+.opinion-card{
+  border:1px solid #eadfcb;
+}
+@media(max-width:1100px){
+  .testimonios-grid{grid-template-columns:repeat(2,1fr);}
+}
+@media(max-width:700px){
+  .opiniones-section .section-head{display:block;}
+  .opiniones-section .section-head h2{font-size:28px;margin-bottom:8px;}
+  .testimonios-grid{grid-template-columns:1fr;}
+}
+
+
+/* Tarjetas dinámicas del inicio */
+.feature-link{
+  text-decoration:none;
+  color:inherit;
+  display:block;
+  position:relative;
+}
+.feature-link:hover{
+  cursor:pointer;
+  box-shadow:0 18px 42px rgba(31,92,47,.18);
+}
+.feature-cta{
+  display:inline-block;
+  margin-top:14px;
+  padding:8px 15px;
+  border-radius:999px;
+  background:#fff6d6;
+  color:#9a5a00;
+  font-size:13px;
+  font-weight:900;
+  border:1px solid rgba(202,138,4,.25);
+}
+.feature-link:hover .feature-cta{
+  background:#facc15;
+  color:#1f2937;
+}

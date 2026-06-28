@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin.html
+Disallow: /admin-testimonios.js
+
+Sitemap: https://www.rinconcitoancashinoperu.com/sitemap.xml

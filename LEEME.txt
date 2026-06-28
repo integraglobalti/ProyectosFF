@@ -1,0 +1,39 @@
+WEB RINCONCITO ANCASHINO
+
+Abre index.html en VS Code o en el navegador.
+
+Archivos principales:
+- index.html
+- nosotros.html
+- platos.html
+- eventos.html
+- hospedaje.html
+- camping.html
+- sonido.html
+- reservas.html
+- contacto.html
+- estilos.css
+- script.js
+- carpeta imagenes1
+
+Para cambiar imágenes, reemplaza el archivo dentro de imagenes1 manteniendo el mismo nombre.
+
+========================================
+NUEVO: OPINIONES CON FIREBASE
+========================================
+
+Archivos agregados:
+- opiniones.html: formulario público para opiniones y lista de testimonios aprobados.
+- admin.html: panel privado para aprobar, ocultar o eliminar opiniones.
+- firebase-config.js: configuración Firebase.
+- testimonios.js: guarda y muestra testimonios.
+- admin-testimonios.js: administra testimonios.
+- FIREBASE_REGLAS.txt: reglas recomendadas de seguridad para Firestore.
+
+Panel admin:
+https://www.rinconcitoancashinoperu.com/admin.html
+
+Correo admin configurado:
+integraglobalti@gmail.com
+
+Recuerda publicar las reglas de FIREBASE_REGLAS.txt en Firebase > Firestore Database > Reglas.

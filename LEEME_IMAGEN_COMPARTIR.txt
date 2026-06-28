@@ -1,0 +1,8 @@
+Imagen de compartir actualizada
+
+Archivo usado por WhatsApp/Facebook:
+imagenes1/compartir-rinconcito.jpg
+
+Después de subir a GitHub/Vercel, limpia la vista previa en:
+https://developers.facebook.com/tools/debug/
+Pega tu URL y pulsa Scrape Again.

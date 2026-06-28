@@ -1,0 +1,23 @@
+PAQUETE SEO AGREGADO
+
+Incluye:
+- sitemap.xml listo para Google Search Console
+- robots.txt
+- Open Graph para WhatsApp/Facebook con imagen compartir-rinconcito.jpg
+- Twitter Cards
+- Schema.org JSON-LD para Restaurante en index.html
+- Canonical URLs en páginas principales
+- Meta descriptions optimizadas
+- Manifest web básico
+
+PASOS PARA PUBLICAR:
+1. Reemplaza tu carpeta actual por esta versión.
+2. Ejecuta:
+   git add .
+   git commit -m "SEO completo y sitemap"
+   git push origin main
+3. Espera que Vercel despliegue.
+4. En Google Search Console, envía: sitemap.xml
+5. Usa Inspección de URL y solicita indexación para https://www.rinconcitoancashinoperu.com/
+
+Importante: conserva el archivo google27187b81a1a9e79c.html para no perder la verificación de Search Console.
